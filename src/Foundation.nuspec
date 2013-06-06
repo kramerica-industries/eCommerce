@@ -1,0 +1,24 @@
+<?xml version="1.0"?>
+<package >
+  <metadata>
+    <id>Foundation</id>
+    <version>1.0.0</version>
+    <authors>Enterprise Architecture</authors>
+    <owners>Enterprise Architecture</owners>
+    <projectUrl>http://inedo.com/kramerica</projectUrl>
+    <iconUrl>http://inedo.localhost/kramerica/kramerica-icon.png</iconUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>The Foundation framework from Kramerica for Inedo</description>
+    <releaseNotes>Initial release.</releaseNotes>
+    <copyright>Copyright 2013</copyright>
+    <tags>Kramerica Foundation framework</tags>
+  </metadata>
+  <files>
+    <file src="Libraries\Nop.Data\bin\Debug\Nop.Core.dll" target="lib\net40" />
+    <file src="Libraries\Nop.Data\bin\Debug\Nop.Core.pdb" target="lib\net40" />
+    <file src="Libraries\Nop.Data\bin\Debug\Nop.Data.dll" target="lib\net40" />
+    <file src="Libraries\Nop.Data\bin\Debug\Nop.Data.pdb" target="lib\net40" />
+    <file src="Libraries\Nop.Core\**\*.cs" target="src\Nop.Core" />
+    <file src="Libraries\Nop.Data\**\*.cs" target="src\Nop.Data" />
+  </files>
+</package>
